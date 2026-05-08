@@ -1,6 +1,5 @@
-" Mapo.vim — a colorscheme by Jones
-" A dark colorscheme inspired by the midnight streets of Seoul
-" Place in ~/.vim/colors/ or ~/.config/nvim/colors/
+" Mapo.vim — A dark colorscheme inspired by the midnight streets of Seoul
+" Created by Jones Dias <@jxdones>
 
 if has('nvim')
   lua require("mapo").load()
