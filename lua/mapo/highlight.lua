@@ -217,6 +217,23 @@ function M.setup()
 	hl("@lsp.type.operator",   { link = "Operator" })
 	hl("@lsp.mod.deprecated",  { link = "Comment" })
 
+	-- gitsigns
+	hl("GitSignsAdd",          { fg = p.cyan })
+	hl("GitSignsChange",       { fg = p.yellow })
+	hl("GitSignsDelete",       { fg = p.red })
+	hl("GitSignsTopDelete",    { fg = p.red })
+	hl("GitSignsChangeDelete", { fg = p.red })
+
+	hl("GitSignsAddNr",    { fg = p.cyan })
+	hl("GitSignsChangeNr", { fg = p.yellow })
+	hl("GitSignsDeleteNr", { fg = p.red })
+
+	hl("GitSignsAddLn",    { bg = p.bg_sel })
+	hl("GitSignsChangeLn", { bg = p.bg_sel })
+
+	hl("GitSignsAddPreview",    { fg = p.cyan,   bg = p.bg_sel })
+	hl("GitSignsDeletePreview", { fg = p.red,    bg = p.bg_sel })
+
 end
 
 return M
