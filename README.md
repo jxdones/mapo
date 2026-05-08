@@ -7,8 +7,13 @@
 
 ## Installation
 
-### lazy.nvim
+Using Neovim 0.12's `vim.pack`
 
+```vim
+vim.pack.add { { src = "https://github.com/jxdones/mapo", name = "mapo" } }
+```
+
+[lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 {
   "jxdones/mapo",
@@ -18,11 +23,9 @@
   end,
 }
 ```
-
 `priority = 1000` ensures the colorscheme loads before other plugins.
 
-### vim-plug
-
+[vim-plug](https://github.com/junegunn/vim-plug)
 ```vim
 Plug 'jxdones/mapo'
 ```
