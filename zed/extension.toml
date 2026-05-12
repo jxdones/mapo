@@ -1,0 +1,8 @@
+[extension]
+id = "mapo-theme"
+name = "Mapo"
+version = "0.1.0"
+schema_version = 1
+authors = ["Jones Dias"]
+description = "A dark colorscheme inspired by the midnight streets of Seoul."
+themes = ["themes/mapo.json"]

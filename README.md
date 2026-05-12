@@ -53,6 +53,22 @@ Then add to your config:
 colorscheme mapo
 ```
 
+**Zed:**
+
+macOS and Linux:
+```
+mkdir -p ~/.config/zed/themes
+cp zed/themes/mapo.json ~/.config/zed/themes/mapo.json
+```
+
+Windows:
+```
+%USERPROFILE%\AppData\Roaming\Zed\themes\mapo.json
+```
+
+Restart Zed, then open the theme selector with `cmd-k cmd-t` on macOS or
+`ctrl-k ctrl-t` on Linux/Windows and select `Mapo`.
+
 ## Requirements
 
 - Vim 8+ or Neovim 0.8+
