@@ -55,6 +55,8 @@ colorscheme mapo
 
 **Zed:**
 
+First run `git clone https://github.com/jxdones/mapo`, then:
+
 macOS and Linux:
 ```
 mkdir -p ~/.config/zed/themes
